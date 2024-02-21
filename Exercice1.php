@@ -9,7 +9,7 @@ function calcule_produit($tab){
  return $produit;
 }
 
-$tab = array(2, 3,3, 4, 5,6);
+$tab = [2, 3,3, 4, 5,6];
 
 $produit = calcule_produit($tab);
 

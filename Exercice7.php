@@ -1,6 +1,6 @@
 <?php
 
-$tableauChaines = array("Bonjour", "à", "tous", "les", "amis");
+$tableauChaines = ["Bonjour", "à", "tous", "les", "amis"];
 
 function concatenation($tableau) {
     

@@ -7,7 +7,7 @@ function supprime_doublons($tab) {
 }
 
 
-$tabDoublons = array(1, 2, 3, 4, 2, 5, 6, 3, 7);
+$tabDoublons = [1, 2, 3, 4, 2, 5, 6, 3, 7];
 
 
 $tab_sans_doublons = supprime_doublons($tabDoublons);

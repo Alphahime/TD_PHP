@@ -1,7 +1,7 @@
 <?php
 
 function frequence_carct($chaine) {
-    $frequences = array();
+    $frequences = [];
     
     // Parcourir chaque caractère de la chaîne
     for ($i = 0; $i < strlen($chaine); $i++) {

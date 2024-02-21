@@ -7,7 +7,7 @@ function compter_voyelles($chaine) {
     $chaine = strtolower($chaine);
     
    
-    $voyelles = array('a', 'e', 'i', 'o', 'u');
+    $voyelles = ['a', 'e', 'i', 'o', 'u'];
     
    
     $compteur = 0;

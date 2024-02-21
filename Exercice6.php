@@ -5,7 +5,7 @@ function sans_doublons($tableau) {
     $occurrences = array_count_values($tableau);
     
   
-    $element_sansdoub = array();
+    $element_sansdoub = [];
     
   
     foreach ($tableau as $element) {

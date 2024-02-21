@@ -1,7 +1,7 @@
 <?php
 
-$tab1 = array(1, 2, 3, 4, 5);
-$tab2 = array(3, 4, 5, 6, 7);
+$tab1 = [1, 2, 3, 4, 5];
+$tab2 = [3, 4, 5, 6, 7];
 
 
 function element_commun($tab1, $tab2) {
