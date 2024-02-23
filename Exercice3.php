@@ -1,13 +1,10 @@
 <?php
 
-// Fonction pour effectuer une rotation à droite d'un tableau d'un certain nombre de positions
 function rotation_droite($tableau, $nombre_positions) {
     $taille = count($tableau);
     
-    // Cas ou le nombre de position est superieur à la taille du tableau
     $nombre_positions %= $taille;
     
-    // Extractions des element à deplace
     $elements_deplacer = array_splice($tableau, $nombre_positions);
     
     // Insértion des éléments au debut du tableau
